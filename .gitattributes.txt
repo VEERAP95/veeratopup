@@ -1,0 +1,4 @@
+    # Example .gitattributes content
+    *.txt text eol=lf
+    *.jpg binary
+    *.psd filter=lfs diff=lfs merge=lfs

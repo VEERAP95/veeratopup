@@ -1,0 +1,76 @@
+﻿body {
+}
+.countrypickerflag {
+    height: 30px;
+    border-radius: 50%
+}
+
+.countrypickerhidden {
+    visibility: hidden;
+    display: none;
+}
+#select {
+    max-height: 400px;
+    overflow-y: scroll;
+    border-left: none;
+    width: 500px;
+    width: 100%;
+    max-height: 300px;
+    background-color:white
+}
+
+option.select-hr {
+    border-bottom: 1px dotted #000;
+}
+
+
+#select tbody {
+    display: block;
+    overflow: auto;
+    height: 300px;
+    width: 100%;
+    max-height: 400px
+}
+
+#select thead tr {
+    display: block;
+}
+
+td, tr {
+    padding: 0;
+    height: 55px;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+#divMobileInput label {
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    transition: top 0.2s cubic-bezier(0.175, 0.885, 0.425, 1.485) 0s;
+    overflow: hidden;
+    font-size: 10px;
+    display: none;
+    color: cornflowerblue;
+    margin-left: 80px
+}
+.displayNone {
+    display: none
+}
+#divimg {
+    width: 75px;
+    max-height: 460px;
+    text-align: left
+}
+
+#imgflag {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+#CountryPickerDIV {
+    max-height: 300px
+}

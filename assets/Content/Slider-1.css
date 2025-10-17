@@ -1,0 +1,46 @@
+﻿.slider1 {
+    background-image: url('img/hero-slider-1-1.jpg');
+}
+
+.slider2 {
+    background-image: url('img/hero-slider-2-1.jpg');
+}
+
+.slider3 {
+    background-image: url('img/hero-slider-3-1.jpg');
+}
+/*.giftcard-slider1 {
+    background-image: url('img/giftcard-hero-slider-1.jpg');
+    background-position:top center;
+}*/
+
+.giftcard-slider2 {
+    background-image: url('img/giftcard-hero-slider-2-1.jpg');
+    background-position: top center;
+}
+
+.giftcard-slider3 {
+    background-image: url('img/giftcard-hero-slider-3-1.jpg');
+    background-position: top center;
+}
+.giftcard-slider4 {
+    background-image: url('img/giftcard-hero-slider-4-1.jpg');
+    background-position: top center;
+}
+.giftcard-slider5 {
+    background-image: url('img/giftcard-hero-slider-5-1.jpg');
+    background-position: top center;
+}
+div[id^="owl-demo"] {
+    display:block;
+    /*opacity:1;*/
+}
+div[id^="owl-demo1"] {
+    display: block;
+    /*opacity:1;*/
+}
+div[id^="owl-operators"] {
+    display: block;
+    /*opacity:1;*/
+}
+
